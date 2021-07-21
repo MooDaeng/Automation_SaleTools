@@ -1,0 +1,17 @@
+1625652512012	geckodriver	INFO	Listening on 127.0.0.1:59286
+1625652513034	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sk/_53tvcc50m9091l3zrk5n1hm0000gn/T/rust_mozprofile4KR7qB"
+1625652513460	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sk/_53tvcc50m9091l3zrk5n1hm0000gn/T/rust_mozprofile4KR7qB/search.json.mozlz4", (void 0)))
+1625652515102	Marionette	INFO	Listening on port 59293
+1625652515219	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625652526729	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1625652917089	Marionette	INFO	Stopped listening on port 59293
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
